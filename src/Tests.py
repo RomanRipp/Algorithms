@@ -5,7 +5,6 @@ Created on Nov 7, 2015
 '''
 import unittest
 import time
-import csv
 import numpy as np
 
 import Fibonacci
@@ -26,7 +25,6 @@ class Test(unittest.TestCase):
             fib.Get(n)
 
 
-    '''
     def testMemoizedFibonacci(self):
         fib = Fibonacci.Fibonacci()    
         for n in range(1, 10):
@@ -119,7 +117,6 @@ class Test(unittest.TestCase):
                     count = count + 1
         
         print count
-    '''
             
     def testStrassenMatrixMultiplication(self):
         matrix_size = 4
